@@ -5,6 +5,8 @@
 
 
 <br><br>
+### 🎁 활용 데이터
+**SuperStore Sales Profit Discount Predict** 
 
 ### 🔎 배경
 - **온라인 커머스 기업의 데이터 분석가로 해당 서비스의 데이터를 분석한다고 가정**
@@ -47,10 +49,21 @@
   - **4_RFM.sql** : 고객 별 RFM를 구하기 위한 쿼리
 <br><br>
 
-- **Python 코드** &nbsp; [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1nwlXV11Uy6ds5O9zEETPh2NSMqPsVDwj/view?usp=sharing) 
-  - **5_ML_Model.ipynb** : SQL 코드로 구현한 고객 별 CLV 값을 토대로 이진분류 ML 모델 구축을 위한 코드
+- **Python 코드** 
+  - **5_EDA.ipynb** &nbsp; [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1wG-3oY3yQglpCxPYsfXkkhi0EGp2Jpn2/view?usp=sharing)
+    - SQL 코드로 구현한 고객 별 CLV 값을 토대로 이진분류 ML 모델 구축을 위한 코드
+  <br>
+  
+  - **6_ML_Model.ipynb** &nbsp; [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1jndZPStfiPDCMHhrtXWncj3joCnKQopl/view?usp=sharing)
+    - SQL 코드로 구현한 고객 별 CLV 값을 토대로 이진분류 ML 모델 구축을 위한 코드
  
 - **PDF 파일**
-  - **5_ML_Model.ipynb** : SQL 코드로 구현한 고객 별 CLV 값을 토대로 이진분류 ML 모델 구축을 위한 코드
-
+  - **7_캐글_커머스데이터_SQL활용_EDA.pdf** : EDA 필요한 데이터를 SQL 쿼리로 추출하고, Tableau를 활용하여 EDA
+<br>
+ 
+- **원본 데이터**
+  - **Sample - Superstore_240830.csv** : 캐글 원본데이터(2014년~2017년, 2018년 극히 일부 데이터)
+  - **Superstore.csv** : 캐글 원본데이터의 2014~2018년 데이터
+  - **clv_table_2014.csv** : ML 훈련용 데이터
+  
 <br><br><br>
